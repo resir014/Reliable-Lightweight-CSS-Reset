@@ -1,0 +1,23 @@
+{
+  "name": "reliable-lightweight-css-reset",
+  "version": "0.0.1",
+  "description": "CSS Resets are stupidly long. It’s time to make it simpler.",
+  "files": [
+    "LICENSE",
+    "reset.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resir014/Reliable-Lightweight-CSS-Reset.git"
+  },
+  "author": {
+    "name": "Resi Respati",
+    "email": "resir014@gmail.com",
+    "url": "https://resir014.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resir014/Reliable-Lightweight-CSS-Reset/issues"
+  },
+  "homepage": "https://resir014.github.io/Reliable-Lightweight-CSS-Reset/"
+}
