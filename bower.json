@@ -7,7 +7,7 @@
   ],
   "description": "CSS Resets are stupidly long. It’s time to make it simpler.",
   "main": "reset.css",
-  "license": "MIT",
+  "license": "WTFPL",
   "ignore": [
     "**/.*",
     "node_modules",
