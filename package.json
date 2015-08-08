@@ -1,6 +1,6 @@
 {
   "name": "reliable-lightweight-css-reset",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CSS Resets are stupidly long. It’s time to make it simpler.",
   "files": [
     "LICENSE",
