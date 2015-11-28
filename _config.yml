@@ -1,0 +1,35 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Setup
+title:            "Most Reliable Lightweight CSS Reset"
+tagline:          "CSS Resets are stupidly long. It’s time to make it simpler."
+url:              https://resir014.github.io
+baseurl:          "/Reliable-Lightweight-CSS-Reset"
+exclude:          ["Gemfile", "README.md", "LICENSE", "node_modules", "bower.json", "package.json"]
+
+# Jekyll build configurations
+source:           docs
+dest:             _gh_pages
+
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:         Asia/Jakarta
+
+# About/contact
+author:
+  name:           Resi Respati
+  url:            https://twitter.com/resir014
+  email:          resir014@gmail.com
+
+# Custom vars
+version:          0.1.0
+github:
+  repo:           https://github.com/resir014/Reliable-Lightweight-CSS-Reset

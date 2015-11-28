@@ -1,0 +1,32 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+
+  <meta name="author" content="Resi Respati || https://twitter.com/resir014">
+
+  <meta name="google-site-verification" content="zXPHGyXggG0IRVPXhgo7AuPiyA4ItE4LyGtOMj7YeBk">
+
+  {% if site.tagline %}
+  <meta name="description" content="{{ site.tagline }}">
+  {% endif %}
+
+  <!-- Canonical link element -->
+  <link rel="canonical" href="{{ site.baseurl | prepend: site.url }}/">
+
+  <!-- OpenGraph tags -->
+  <meta content="resir014" property="og:site_name">
+  <meta content="{{ site.title }}" property="og:title">
+  <meta content="{{ site.tagline }}" property="og:description">
+  <meta content="{{ site.baseurl | prepend: site.url }}/" property="og:url">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/assets/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/favicon.ico">
+</head>
