@@ -29,11 +29,17 @@ In its entirety, MRLCR contains the following:
 }
 ```
 
-### I don't like the way you did x or y!
+### I don't like the way you did `{x,y,z}`!
 
 Then feel free to change it as you like. MRLCR is licensed in WTFPL so that the possibilities to do whatever you want with it are endless, and because real freedom tastes much better than [Freedom™](https://www.youtube.com/watch?v=PaKIZ7gJlRU).
 
 ## Installation
+
+### npm
+
+```sh
+$ npm install --save reliable-lightweight-css-reset
+```
 
 ### Bower
 
@@ -47,10 +53,4 @@ Just download the thing and place it inside your working directory. Was that so 
 
 ## License
 
-```
-Copyright © 2015 Resi Respati <resir014@gmail.com>
-
-This work is free. You can redistribute it and/or modify it under the
-terms of the Do What The Fuck You Want To Public License, Version 2,
-as published by Sam Hocevar. See the LICENSE file for more details.
-```
+[WTFPL.](https://github.com/resir014/Reliable-Lightweight-CSS-Reset/blob/master/LICENSE)
