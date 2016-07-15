@@ -34,19 +34,21 @@
 </head>
 <body>
   <div class="container">
-    <header class="masthead">
-      <a href="https://resir014.github.io">&larr; Return to resir014.github.io</a>
-    </header>
+    <nav class="navigation">
+      <a href="https://resir014.github.io">Return to resir014.github.io</a>
+    </nav>
 
-    <main>
+    <header>
       <h1 class="page-title"><a href="https://github.com/resir014/Reliable-Lightweight-CSS-Reset">Most Reliable Lightweight CSS Reset</a></h1>
       <p class="lead">CSS Resets are stupidly long. It’s time to make it simpler.</p>
+    </header>
 
-      <hr>
+    <hr>
 
-      <h1 id="faq">FAQ</h1>
+    <main>
+      <h2 id="faq">FAQ</h2>
 
-<h2 id="why-did-you-make-this">Why did you make this?</h2>
+<h3 id="why-did-you-make-this">Why did you make this?</h3>
 
 <p>There has been a <a href="http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css">long-brewing battle</a> between users of <code>normalize.css</code> and <code>reset.css</code> over which ones work the best for development. Even though both of them work well in making websites render consistently on all browsers and operating systems, I find them both to be lacking in one aspect: <strong>size</strong>.</p>
 
@@ -54,48 +56,51 @@
 
 <p>Most Reliable Lightweight CSS Reset (MRLCR) solves the above issue by going the extra mile in compactness with a solution that <em>just works</em>.</p>
 
-<h2 id="seriously-why-did-you-make-this">Seriously. <em>Why</em> did you make this?</h2>
+<h3 id="seriously-why-did-you-make-this">Seriously. <em>Why</em> did you make this?</h3>
 
 <p>I originally made this as a <a href="http://resir014.tumblr.com/post/91331438337">joke Tumblr post</a> with the same idea as explained above. I ended up setting up a GitHub repo for it, because hey, some of you might be into this, so why the hell not.</p>
 
 <p>I even went on to set up a bower package for it, because some of you are pretty into it these days.</p>
 
-<h2 id="what-does-this-contain">What does this contain?</h2>
+<h3 id="what-does-this-contain">What does this contain?</h3>
 
 <p>In its entirety, MRLCR contains the following:</p>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">*</span> <span class="p">{</span>
-  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<pre><code class="language-css">* {
+  margin: 0;
+  padding: 0;
+}
+</code></pre>
 
-<h2 id="i-dont-like-the-way-you-did-x-or-y">I don’t like the way you did x or y!</h2>
+<h3 id="i-dont-like-the-way-you-did-xyz">I don’t like the way you did <code>{x,y,z}</code>!</h3>
 
-<p>Then feel free to change it as you like. MRLCR is licensed in WTFPL so that the possibilities to do whatever you want with it are endless, and because real freedom tastes much better than <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">Freedom™</a>.</p>
+<p>I don’t care, just fork it and change it. MRLCR is licensed in WTFPL so that the possibilities to do whatever you want with it are endless, and because real freedom tastes much better than <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Freedom™</a>.</p>
 
-<h1 id="installation">Installation</h1>
+<h2 id="installation">Installation</h2>
 
-<h2 id="bower">Bower</h2>
+<h3 id="npm">npm</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>bower install reliable-lightweight-css-reset</code></pre></div>
+<pre><code class="language-sh">$ npm install --save reliable-lightweight-css-reset
+</code></pre>
 
-<h2 id="the-old-way">The old way</h2>
+<h3 id="bower">Bower</h3>
+
+<pre><code class="language-sh">$ bower install reliable-lightweight-css-reset
+</code></pre>
+
+<h3 id="the-old-way">The old way</h3>
 
 <p>Just download the thing and place it inside your working directory. Was that so hard?</p>
 
-<h1 id="license">License</h1>
+<h2 id="license">License</h2>
 
 <p><a href="https://github.com/resir014/Reliable-Lightweight-CSS-Reset/blob/master/LICENSE">WTFPL.</a></p>
 
     </main>
 
     <footer>
-      <small>Copyright &copy; 2015 Resi Respati.</small>
-
       <small>
-        This work is free. You can redistribute it and/or modify it under the
-        terms of the Do What The Fuck You Want To Public License, Version 2,
-        as published by Sam Hocevar. See the LICENSE file for more details.
+        The contents of this website are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
       </small>
     </footer>
   </div>
