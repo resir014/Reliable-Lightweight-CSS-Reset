@@ -3,26 +3,24 @@
 {% include head.html %}
 <body>
   <div class="container">
-    <header class="masthead">
-      <a href="{{ site.url }}">&larr; Return to resir014.github.io</a>
-    </header>
+    <nav class="navigation">
+      <a href="{{ site.url }}">Return to resir014.github.io</a>
+    </nav>
 
-    <main>
+    <header>
       <h1 class="page-title"><a href="{{ site.github.repo }}">{{ site.title }}</a></h1>
       <p class="lead">{{ site.tagline }}</p>
+    </header>
 
-      <hr>
+    <hr>
 
+    <main>
       {{ content }}
     </main>
 
     <footer>
-      <small>Copyright &copy; 2015 Resi Respati.</small>
-
       <small>
-        This work is free. You can redistribute it and/or modify it under the
-        terms of the Do What The Fuck You Want To Public License, Version 2,
-        as published by Sam Hocevar. See the LICENSE file for more details.
+        The contents of this website are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
       </small>
     </footer>
   </div>

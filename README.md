@@ -31,7 +31,7 @@ In its entirety, MRLCR contains the following:
 
 ### I don't like the way you did `{x,y,z}`!
 
-Then feel free to change it as you like. MRLCR is licensed in WTFPL so that the possibilities to do whatever you want with it are endless, and because real freedom tastes much better than [Freedom™](https://www.youtube.com/watch?v=PaKIZ7gJlRU).
+I don't care, just fork it and change it. MRLCR is licensed in WTFPL so that the possibilities to do whatever you want with it are endless, and because real freedom tastes much better than [Freedom™](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 ## Installation
 
