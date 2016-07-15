@@ -4,6 +4,9 @@
   "description": "CSS Resets are stupidly long. It’s time to make it simpler.",
   "files": [
     "LICENSE",
+    "bower.json",
+    "package.json",
+    "README.md",
     "reset.css"
   ],
   "repository": {
