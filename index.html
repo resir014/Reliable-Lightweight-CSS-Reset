@@ -50,7 +50,7 @@
 
 <h3 id="why-did-you-make-this">Why did you make this?</h3>
 
-<p>There has been a <a href="http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css">long-brewing battle</a> between users of <code>normalize.css</code> and <code>reset.css</code> over which ones work the best for development. Even though both of them work well in making websites render consistently on all browsers and operating systems, I find them both to be lacking in one aspect: <strong>size</strong>.</p>
+<p>There has been a <a href="http://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css">long-brewing battle</a> between users of <code class="highlighter-rouge">normalize.css</code> and <code class="highlighter-rouge">reset.css</code> over which ones work the best for development. Even though both of them work well in making websites render consistently on all browsers and operating systems, I find them both to be lacking in one aspect: <strong>size</strong>.</p>
 
 <p>Some of them argue that one works better than the other because it’s more lightweight in size, which helps in performance, but the main problem is: they are both <strong>fucking huge</strong>.</p>
 
@@ -66,13 +66,12 @@
 
 <p>In its entirety, MRLCR contains the following:</p>
 
-<pre><code class="language-css">* {
-  margin: 0;
-  padding: 0;
-}
-</code></pre>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">*</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
 
-<h3 id="i-dont-like-the-way-you-did-xyz">I don’t like the way you did <code>{x,y,z}</code>!</h3>
+<h3 id="i-dont-like-the-way-you-did-xyz">I don’t like the way you did <code class="highlighter-rouge"><span class="p">{</span><span class="err">x,y,z</span><span class="p">}</span></code>!</h3>
 
 <p>I don’t care, just fork it and change it. MRLCR is licensed in WTFPL so that the possibilities to do whatever you want with it are endless, and because real freedom tastes much better than <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">Freedom™</a>.</p>
 
@@ -80,13 +79,11 @@
 
 <h3 id="npm">npm</h3>
 
-<pre><code class="language-sh">$ npm install --save reliable-lightweight-css-reset
-</code></pre>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>npm install --save reliable-lightweight-css-reset</code></pre></figure>
 
 <h3 id="bower">Bower</h3>
 
-<pre><code class="language-sh">$ bower install reliable-lightweight-css-reset
-</code></pre>
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="gp">$ </span>bower install reliable-lightweight-css-reset</code></pre></figure>
 
 <h3 id="the-old-way">The old way</h3>
 
