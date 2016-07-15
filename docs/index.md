@@ -22,12 +22,12 @@ I even went on to set up a bower package for it, because some of you are pretty 
 
 In its entirety, MRLCR contains the following:
 
-```css
+{% highlight css %}
 * {
   margin: 0;
   padding: 0;
 }
-```
+{% endhighlight %}
 
 ### I don't like the way you did `{x,y,z}`!
 
