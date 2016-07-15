@@ -37,15 +37,15 @@ I don't care, just fork it and change it. MRLCR is licensed in WTFPL so that the
 
 ### npm
 
-```sh
+{% highlight sh %}
 $ npm install --save reliable-lightweight-css-reset
-```
+{% endhighlight %}
 
 ### Bower
 
-```sh
+{% highlight sh %}
 $ bower install reliable-lightweight-css-reset
-```
+{% endhighlight %}
 
 ### The old way
 

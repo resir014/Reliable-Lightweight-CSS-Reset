@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Setup
 title:            "Most Reliable Lightweight CSS Reset"
